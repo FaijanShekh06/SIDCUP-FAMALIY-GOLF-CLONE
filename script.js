@@ -39,6 +39,7 @@ gsap.to("#nav", {
 
 })
 
+
 gsap.to("#main", {
   backgroundColor: "#000",
   scrollTrigger: {
@@ -128,3 +129,14 @@ gsap.from("#colon2", {
 
 })
 
+gsap.from("#page4 h1", {
+  y: 50,
+  scrollTrigger: {
+    trigger: "#page4 h1",
+    scroller: "body",
+    start: "top 70%",
+    end: "top 65%",
+    scrub: 1
+  }
+
+})
